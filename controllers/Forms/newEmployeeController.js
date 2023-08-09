@@ -234,6 +234,7 @@ const newEmployeeController = {
 
     res.json({ allEmployee: allEmployee });
   },
+  //----------------one employee------------------------
   async oneEmployee(req, res, next) {
     let oneEmployee;
     try {
